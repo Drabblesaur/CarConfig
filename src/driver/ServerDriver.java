@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ServerDriver {
     public static void main(String [] args) {
-        DefaultServerSocket Server = new DefaultServerSocket(3220);
+        DefaultServerSocket Server = new DefaultServerSocket("PORT");
         Server.run();
     }
 }
